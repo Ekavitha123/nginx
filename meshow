@@ -18,4 +18,3 @@
 18. la
 19. sudo cp -R * /usr/share/nginx/html/
 20. sudo systemctl restart nginx
-[ec2-user@ip-10-0-17-206 git]$
