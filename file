@@ -1,4 +1,6 @@
-1. launch terminal 
+nginx commnds.
+check the page ec2 pub ip and port 80
+
 2. sudo yum -y install nginx
 3/ sudo systemctl start nginx
 4/ sudo systemctl enable nginx
