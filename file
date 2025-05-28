@@ -14,9 +14,32 @@ check the page ec2 pub ip and port 80
 12/ cd /usr/
 13. ls
 14/ cd
-15/ cd /usr/shere/nginx/html/
+15/ cd /usr/share/nginx/html/
 16. ls
+    cd
 17. cd food
-18. la
+18. ls
 19. sudo cp -R * /usr/share/nginx/html/
 20. sudo systemctl restart nginx
+  
+niginx mario commands.
+
+   24  sudo yum -y install nginx
+   25  sudo systemctl start nginx
+   26  sudo systemctl enable nginx
+   27  sudo systemctl status nginx
+   28  sudo yum -y install git
+   29  git --version
+   30  sudo git clone https://github.com/Akiranred/mario.git
+   34  ls
+   35  cd mario
+   36  cd /usr/
+   37  ls
+   42  cd
+   43  cd /usr/share/nginx/html/
+   44  ls
+   46  cd
+   47  cd mario
+   48  sudo cp -R * /usr/share/nginx/html/
+   49  sudo systemctl restart nginx
+   50  history
