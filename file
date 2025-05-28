@@ -4,7 +4,7 @@ check the page ec2 pub ip and port 80
 2. sudo yum -y install nginx
 3/ sudo systemctl start nginx
 4/ sudo systemctl enable nginx
-5/ create autometicaly system link create.
+* create autometicaly system link create.
 6/ sudo systemctl status nginx
 7/ sudo yum -y install git
 8/ git --version
