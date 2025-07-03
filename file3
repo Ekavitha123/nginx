@@ -1,0 +1,23 @@
+httpd commands 
+check the ec2 pub ip and portno.80
+ 1  sudo yum -y install httpd
+    2  sudo systemctl start httpd
+    3  sudo systemctl enable httpd
+    4  sudo systemctl status httpd
+    5  sudo yum -y install git
+    6  git --verstion
+    7  git --version
+    8  sudo git clone https://github.com/Akiranred/food.git
+    9  ls
+   10  cd food
+   11  ls
+   12  cd /var
+   13  ls
+   14  cd
+   15  cd /var/www/html/
+   16  ls
+   17  cd
+   18  cd food
+   19  ls
+   20  sudo cp -R * /var/www/html/
+   21  sudo systemctl restart httpd
